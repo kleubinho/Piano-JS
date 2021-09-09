@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(91, 133, 211);
+}
+
+#piano{
+    width: 540px;
+    border: 10px solid;
+    height: 204px;
+    margin: 10px auto;
+}
+.tecla{
+    border: 2px solid;
+    width: 50px;
+    height: 200px;
+    position: relative;
+    float: left;
+}
+
+
+
+.tcB{
+    background-color: #fff;
+    height: 200px;
+    width: 50px;
+    border: none;
+}
+.tcB:hover{
+    background-color: rgb(173, 173, 173);
+}
+
+
+.tcP{
+    background-color: black;
+    height: 100px;
+    width: 40px;
+    border: none;
+    position: absolute;
+    left: 50%;
+    z-index: 2;
+}
+
+.tcP:hover{
+    background-color: rgb(47, 47, 47);
+}
+
+#nota{
+    background-color: rgb(255, 255, 255);
+    margin-left: 55pc;
+    border: 10px solid;
+    border-radius: 10px;
+    font-size: 30px;
+    width: 100px;
+    font-family: 'Righteous', cursive;
+}
+
+#texto{
+    margin-left: 50pc;
+    font-size: 50px;
+    font-family: 'Righteous', cursive;
+}
